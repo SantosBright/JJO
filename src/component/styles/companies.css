@@ -22,9 +22,6 @@
 	background: #ffffff 0% 0% no-repeat padding-box;
 }
 
-.circle img {
-}
-
 @media screen and (max-width: 1024px) {
 	.companies .company h5 {
 		font-size: 0.8rem;
