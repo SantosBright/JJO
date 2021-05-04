@@ -35,6 +35,10 @@
 		gap: 2rem;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
+	.companies-feature {
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
 }
 @media screen and (max-width: 540px) {
 	.companies {

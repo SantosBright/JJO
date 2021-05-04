@@ -7,7 +7,7 @@ const data = ['GrandParade', 'Seargin', 'DEX Ventures', 'NBC', 'SVT SP Zoo', 'DG
 function Companies() {
 	return (
 		<div className={'container'}>
-			<h1>Features Companies</h1>
+			<h1 className={'companies-feature'}>Features Companies</h1>
 			<div className={'companies'}>
 				{data.map((str) => (
 					<div className="company">
