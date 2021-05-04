@@ -1,0 +1,43 @@
+.header {
+	width: 100%;
+	height: 50vh;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.header-content {
+	height: 100%;
+	width: 100%;
+	background-image: url('../assets/bgx2.png');
+	background-size: cover;
+}
+@media screen and (max-width: 640px) {
+	.header-content {
+		background-image: url(../assets/bg.png);
+		background-position: center;
+	}
+}
+.header-grid {
+	display: grid;
+	height: 100%;
+}
+
+.header-info {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100%;
+}
+
+.header-heading {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	text-transform: capitalize;
+}
+
+.header-intro {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	margin: 1rem 0;
+}
